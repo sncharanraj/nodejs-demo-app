@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Demo Node.js app with CI/CD pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["nodejs", "express", "cicd", "docker"],
+  "author": "DevOps Intern",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3",
+    "nodemon": "^2.0.22"
+  }
+}
